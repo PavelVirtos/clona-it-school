@@ -1,0 +1,49 @@
+/* Adaugam varaibile */
+:root {
+    --text-primary: #101d42;
+    --text-secondary: #fbb44c;
+    --text-dark: #2b2922;
+    --text-light: #eaeaea;
+    --text-white: #ffffff;
+  
+    --bg-primary: #141e4c;
+    --bg-secondary: #dfedf5;
+    --bg-dark: #101d42;
+    --bg-light: #ffffff;
+  
+    --button-color: #2bb686;
+  
+    --fs-large: 1rem;
+    --fs-medium: 0.875rem;
+    --fs-small: 0.75rem;
+  
+    --spacing-xl: 2.625rem;
+    --spacing-large: 1.75rem;
+    --spacing-medium: 1rem;
+    --spacing-small: 0.5rem;
+    --spacing-tiny: 0.25rem;
+  }
+  /*  Resetati proprietatile default*/
+  * {
+    box-sizing: border-box;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  
